@@ -1,0 +1,283 @@
+    /*#0047FF;*/
+    
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #dde6ff;
+        margin: 0;
+        padding: 0;
+        display: grid;
+    }
+    
+    .logoNav {
+        height: 10vh;
+    }
+    
+    .nav {
+        padding: 2rem;
+        width: 100%;
+    }
+    
+    nav {
+        background-color: white;
+    }
+    
+    .shop {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        width: 100%;
+        background-color: #dde6ff;
+    }
+    
+    .card {
+        padding: 2rem;
+        margin: 2rem;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .btnBlue {
+        background-color: #0047FF;
+        border: none;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btnBlue:hover {
+        background-color: hsl(223, 100%, 57%);
+        color: #ffff;
+    }
+    
+    .us {
+        background-color: #0047FF;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logoUs {
+        width: 50vw;
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+    }
+    
+    .btnUs {
+        background-color: hsl(223, 100%, 57%);
+        color: #ffff;
+        margin: 0;
+        width: 50vw;
+        border-color: hsl(223, 100%, 57%);
+    }
+    
+    .blue {
+        background-color: #0047FF;
+    }
+    
+    .btnUs:hover {
+        background-color: #dde6ff;
+        color: #0047FF;
+        border-color: hsl(223, 100%, 57%);
+    }
+    
+    .UsPt2 {
+        grid-template-columns: repeat(3, 3fr);
+        background-color: #0047FF;
+        height: 95vh;
+        width: 100%;
+    }
+    
+    .cardUs {
+        background-color: hsl(223, 100%, 57%);
+        border-width: 2px;
+        border-color: white;
+        color: #ffff;
+        width: 25vw;
+        height: 30vh;
+        border-radius: 5vw;
+        display: grid;
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .legend {
+        width: 2rem;
+        height: 2rem;
+        background-color: #dde6ff;
+        color: #0047FF;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        border-radius: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: -3vh;
+        justify-self: center;
+    }
+    
+    svg {
+        margin-top: -3vh;
+        width: 10vw;
+    }
+    
+    .divider {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 100%;
+        background-color: #0047FF;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        margin-top: -5vw;
+    }
+    
+    .sDivider {
+        background-color: #0047FF;
+        display: grid;
+        width: 100%;
+        border-style: solid;
+        border-width: 0px;
+        border-color: hsl(223, 100%, 57%);
+        border-top-width: 2px;
+    }
+    
+    .svgDivider {
+        margin: 0px;
+        width: 5vw;
+        fill: hsl(223, 100%, 57%);
+    }
+    
+    footer {
+        color: white;
+        background: #0047FF;
+    }
+    
+    a:hover {
+        color: #dde6ff;
+        text-decoration: none;
+    }
+    
+    a {
+        color: hsl(223, 100%, 77%);
+        text-decoration: none;
+    }
+    
+    .btnBV:hover {
+        background-color: hsl(223, 100%, 57%);
+        color: #ffff;
+        border-color: hsl(223, 100%, 57%);
+    }
+    
+    .btnBV {
+        color: white;
+        background: #0047FF;
+        border-color: hsl(223, 100%, 57%);
+    }
+    
+    .columnsFooter1024px {
+        margin: 0;
+    }
+    
+    svg {
+        margin: 0;
+    }
+    
+    .F {
+        display: flex;
+    }
+    
+    .containerF {
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 111px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .marginF {
+        margin: 15px;
+    }
+    
+    .mF1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .mF2 {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    @media (max-width: 540px) {
+        .shop {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .F {
+            display: grid;
+        }
+        .containerF {
+            height: 115.19px;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin: 25px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .mF1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mF2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media (min-width: 540px) {
+        .shop {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .shop {
+            grid-template-columns: repeat(2, 2fr);
+        }
+        .logoUs {
+            width: 30vw;
+        }
+        .btnUs {
+            width: 30vw;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .shop {
+            grid-template-columns: repeat(3, 3fr);
+        }
+        .logoUs {
+            width: 30vw;
+        }
+        .btnUs {
+            width: 30vw;
+        }
+        .columnsFooter1024px {
+            grid-template-columns: repeat(5, 5fr);
+        }
+    }
